@@ -48,10 +48,46 @@ header div.flex-nav .button{
     font-size: 10px;
 }
 
+h1.item-titolo{
+    color: white;
+}
+
+p{
+    color: white; 
+}
+
 .header-flex{
-    background-color: #628cf7;
+    background-color: hsl(223, 64%, 53%);
     padding: 10rem 0rem;
-    text-align: center;   
+    text-align: center;
+    background-image: url(img/jumbo.png);
+}
+
+#button1{
+    background-color: white;
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+}
+
+#button2{
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+    background-color: black;
+    color: white;
 }
 
 div.header-flex .button{
@@ -69,18 +105,20 @@ div.header-flex .button{
 }
 
 .item-img{
-    border: 1px solid grey;
-    width: 33%;
+    display: flex;
+    width: 35%;
     text-align: center;
     align-self: center;
     height: 14rem;
 }
 
 .item-info{
-    border: 1px solid grey;
     width: 33%;
     text-align: center;
-    
+}
+
+h1.titolo1{
+    color: black;
 }
 
 .flex-second{
@@ -103,16 +141,22 @@ div.header-flex .button{
 }
 
 .item-img-last{
-    border: 1px solid rgb(172, 172, 172);
     width: 50%;
     text-align: center;
     align-self: center;
     height: 14rem;
     order: 1;
+    justify-content: center;
+}
+
+img.img-big{
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+    width: 120%;
 }
 
 .item-info-last{
-    border: 1px solid grey;
     text-align: center;
     order: 4;
 }
@@ -188,4 +232,18 @@ hr{
     color: #4f5d8c;
     margin: 1rem 5rem 1rem 5rem;
     border: 1px solid #7187d9;
+}
+
+button.mac{
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+    color: white;
+    background-color: hsl(223, 64%, 53%);
 }
